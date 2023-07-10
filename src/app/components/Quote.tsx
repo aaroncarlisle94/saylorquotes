@@ -31,7 +31,7 @@ export default function Quote(randomQuote: Quote) {
         <p
           className={`text-2xl md:text-4xl max-w-3xl text-center leading-none ${roboto.className}`}
         >
-          "{randomQuote.quote}"
+          &quot;{randomQuote.quote}&quot;
         </p>
       </div>
       <div className="flex flex-col justify-center items-center">
