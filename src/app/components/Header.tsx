@@ -1,3 +1,5 @@
+"use client";
+
 import { Poppins, Roboto } from "next/font/google";
 
 const poppins = Poppins({
