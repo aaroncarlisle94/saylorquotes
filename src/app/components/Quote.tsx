@@ -23,7 +23,7 @@ export default function Quote(randomQuote: Quote) {
 
   return (
     <section
-      className={`flex flex-col justify-center items-center px-2 transition-opacity ease-in-out duration-1000 ${
+      className={`flex flex-col justify-center items-center px-2 transition-opacity ease-in-out z-50 duration-1000 ${
         fade ? "opacity-0" : "opacity-100"
       }`}
     >
